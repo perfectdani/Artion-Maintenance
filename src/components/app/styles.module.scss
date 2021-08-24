@@ -1,0 +1,30 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  padding: 48px 55px 100px 300px;
+  box-sizing: border-box;
+  box-shadow: 0px 18.6388px 74.5551px #F2F1FA;
+  border-radius: 27.34px;
+  position: relative;
+}
+
+.man {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-40%, -50%);
+}
+
+.text {
+  width: 520px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -1px;
+}
